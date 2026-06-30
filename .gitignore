@@ -1,0 +1,38 @@
+# MATLAB
+*.asv
+*.m~
+*.mex*
+slprj/
+octave-workspace
+
+# EEG / large data (not redistributed — see README)
+Data/
+Processed/
+Conductuales_*/
+*.set
+*.fdt
+*.erp
+# Large .mat recordings (keep small example .mat files via "git add -f" if needed)
+*.mat
+
+# Python (in case helper scripts are added)
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.venv/
+venv/
+
+# R (in case helper scripts are added)
+.Rhistory
+.RData
+.Rproj.user/
+renv/library/
+
+# Secrets / credentials
+.env
+*.key
+credentials.*
+
+# OS
+.DS_Store
+Thumbs.db

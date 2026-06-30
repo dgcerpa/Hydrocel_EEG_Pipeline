@@ -54,7 +54,7 @@ output_dir = 'D:\Mona Lisa EEG\Processed';
 
 % Channel location file
 % Example: 'C:\...\GSN-HydroCel-65_1.0.sfp'
-chanLoc_file = 'C:\Users\yangy\Documents\MATLAB\eeglab2025.0.0\functions\supportfiles\channel_location_files\philips_neuro\GSN-HydroCel-65_1.0.sfp';
+chanLoc_file = '<path/to>\eeglab\functions\supportfiles\channel_location_files\philips_neuro\GSN-HydroCel-65_1.0.sfp';
 
 %% ==================== VALIDATION ====================
 
