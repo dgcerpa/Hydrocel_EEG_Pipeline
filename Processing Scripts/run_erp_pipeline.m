@@ -34,27 +34,27 @@ eeglab;
 % UPDATE THESE PATHS FOR YOUR SYSTEM
 
 % Select experiment to process (1, 2, or 3)
-experiment_num = 1;
+experiment_num = 3;
 
 % Input directory with .mat files
 % Example: 'D:\Mona Lisa EEG\Data\E1'
-input_dir = 'D:\Mona Lisa EEG\Data\E1';
+input_dir = 'E:\Investigaciones\Mona Lisa\Exp3';
 
 % Behavioral data directory
 % Example: 'D:\Mona Lisa EEG\Conductuales_1'
-behavior_dir = 'D:\Mona Lisa EEG\Conductuales_1';
+behavior_dir = 'E:\Investigaciones\Mona Lisa\Conductuales_3';
 
 % Bins definition file (same for all experiments)
 % Example: 'D:\Mona Lisa EEG\bins_imagenes.txt'
-bins_file = 'D:\Mona Lisa EEG\bins_imagenes.txt';
+bins_file = 'E:\Investigaciones\Mona Lisa\Processing Scripts\bins_imagenes.txt';
 
 % Output directory for processed files
 % Example: 'D:\Mona Lisa EEG\Processed'
-output_dir = 'D:\Mona Lisa EEG\Processed';
+output_dir = 'E:\Investigaciones\Mona Lisa';
 
 % Channel location file
 % Example: 'C:\...\GSN-HydroCel-65_1.0.sfp'
-chanLoc_file = '<path/to>\eeglab\functions\supportfiles\channel_location_files\philips_neuro\GSN-HydroCel-65_1.0.sfp';
+chanLoc_file = 'E:\Investigaciones\Mona Lisa\Processing Scripts\GSN-HydroCel-65_1.0.sfp';
 
 %% ==================== VALIDATION ====================
 
